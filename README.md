@@ -93,33 +93,17 @@ Production-ready WordPress deployment on AWS with automatic failover and high av
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/aws-wordpress-ha.git
+git clone https://github.com/Ofony-85/aws-wordpress-ha
 cd aws-wordpress-ha
 ```
 
 2. **Configure AWS credentials**
 ```bash
 aws configure
-```
 
-3. **Run the deployment script**
-```bash
-chmod +x scripts/deploy.sh
-./scripts/deploy.sh
-```
-
-4. **Monitor deployment**
-```bash
-./scripts/monitor.sh
-```
-
-5. **Access WordPress**
+3. **Access WordPress**
 - Navigate to the ALB DNS name provided in the output
 - Complete WordPress installation wizard
-
-### Manual Deployment
-
-For step-by-step manual deployment, see [DEPLOYMENT_GUIDE.md](docs/DEPLOYMENT_GUIDE.md)
 
 ## 📁 Project Structure
 ```
@@ -202,14 +186,6 @@ Breakdown:
 - Check security group rules monthly
 - Test disaster recovery procedures quarterly
 
-### Cleanup
-
-To delete all resources and avoid charges:
-```bash
-chmod +x scripts/cleanup.sh
-./scripts/cleanup.sh
-```
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -223,8 +199,6 @@ chmod +x scripts/cleanup.sh
 - Verify wp-config.php credentials
 - Check RDS security group
 - Test connection from EC2
-
-See [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for detailed solutions.
 
 ## 📚 What I Learned
 
@@ -258,9 +232,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Ofonime Offong**
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your Name](https://linkedin.com/in/YOUR_PROFILE)
-- Email: your.email@example.com
+- GitHub: [@Ofony-85](https://github.com/Ofony-85)
+- LinkedIn: [Ofonime Offong](https://www.linkedin.com/in/ofonime-offong-139322a3/)
+- Email: ofonyme3@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -270,6 +244,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - AWS Well-Architected Framework
 
 ## 📞 Contact
++2348038854115
 
 For questions or collaboration opportunities, feel free to reach out!
 
