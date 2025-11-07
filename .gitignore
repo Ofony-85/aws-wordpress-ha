@@ -1,0 +1,18 @@
+# Sensitive files
+resource-ids.txt
+*.pem
+*.key
+*-encoded.txt
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# AWS
+.aws/
