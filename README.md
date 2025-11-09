@@ -11,7 +11,7 @@ Production-ready WordPress deployment on AWS with automatic failover and high av
 ## 📋 Live Demo
 
 **Status:** ✅ Live and Running  
-**URL:** `http://wordpress-alb-543074365.us-east-1.elb.amazonaws.com`  
+**URL:** http://wordpress-alb-543074365.us-east-1.elb.amazonaws.com
 **Uptime:** 99.9%+
 
 ## 🏗️ Architecture
@@ -93,7 +93,7 @@ Production-ready WordPress deployment on AWS with automatic failover and high av
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Ofony-85/aws-wordpress-ha
+git clone https://github.com/Ofony-85/aws-wordpress-ha.git
 cd aws-wordpress-ha
 ```
 
